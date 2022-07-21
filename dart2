@@ -1,0 +1,24 @@
+// All the data types in dart are basically objects.
+// The default value for all the data types is null.
+
+void main()
+{
+  int age = 10;
+  var b = 25; // this statement is equivalent to saying int b = 25
+  print(age);
+  print(b);
+  String name = "Vatsal"; // var name = "Vatsal"
+  print(name);
+  bool isAlive = true; // var isAlive = true
+  print(isAlive);
+  
+  // writing hexadecimal and exponential values
+  int hex = 0xEADEBAEE;
+  double exp = 1.42e5;
+  print(hex);
+  print(exp);
+  
+//   int c;
+//   print(c);
+  // null will be printed
+}
