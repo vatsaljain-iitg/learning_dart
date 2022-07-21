@@ -1,0 +1,15 @@
+void main()
+{
+  // i know if-else statements
+  
+  //Control statements
+  int a=1,b=2;
+  a<b ? print("$a is smaller") : print("$b is smaller");
+  int greater = a>b?a:b;
+  print(greater);
+  
+  String s1 = "Vatsal";
+  String name1 = s1 ?? "Guest User"; // if s1 is null, then name1 = Guest User
+  print(name1);
+  
+}
