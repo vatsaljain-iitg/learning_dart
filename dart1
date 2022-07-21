@@ -1,0 +1,17 @@
+/*
+I want a K.G.F. , and I will do anything for it.
+*/
+void main()
+{
+  // This is my first line of code
+  print("Hello World");
+  
+  // Printing the first application
+  print("This is my first application");
+  
+  // Performing mathematical operation
+  print(4-1+3*4);
+  
+  //Printing boolean result
+  print(true);
+}
