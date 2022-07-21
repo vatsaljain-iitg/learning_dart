@@ -1,0 +1,10 @@
+// using fat-arrow expression
+
+void main()
+{
+  int length = 10 , breadth = 20;
+  findPerimeter(length,breadth);
+  getArea(length,breadth);
+}
+void findPerimeter(int length, int breadth) => print("The perimeter of the rectangle is ${2*(length+breadth)}");
+void getArea(int length, int breadth) => print("The area of the rectangle is ${length*breadth}");
