@@ -1,0 +1,33 @@
+void main()
+{
+  // Literals or Constants - These are assigned to the variables.
+  
+  // Various ways to define String Literals in Dart 
+  String s1 = 'Single'; // this is also correct
+  String s2 = "Double";
+  String s3 = 'It\'s easy'; // s3 = It's easy-
+  String s4 = "It's easy";
+  print(s1);
+  print(s2);
+  print(s3);
+  print(s4);
+  
+  String s5 = 'My name is Vatsal Jain.'
+    'The name of my roommate is Atharv Jain.';
+  // this is way of concatenating the two strings.
+  print(s5);
+  
+  // String interpolation
+  String name = "Vatsal";
+  print("U know what ? My name is $name");
+  print("The Number of characters in my name is $name.length"); 
+  // this will print Vatsal.length
+  
+  //print("The Number of Characters in my name is " + name.length.toString());
+// this will print The Number of Characters in my name is 6
+  
+  print("The number of characters in my name is ${name.length}");
+  
+  int l =1,b=2;
+  print("The sum of $l and $b is = ${l+b}");
+}
