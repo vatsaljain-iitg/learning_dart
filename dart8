@@ -1,0 +1,35 @@
+/*
+ Functions in dart are objects.
+Functions can be assigned to a variable or passed as a parameter to other functions.
+All functions in dart return some value. default return value (as in case of void) is null.
+
+examples:-
+findarea(int length, int breadth)
+{
+this returns null
+}
+
+int perimeter(int a, int b, int c)
+{
+this also returns null as the return statement is missing
+}
+*/
+void main()
+{
+  int length = 10, breadth = 20;
+  int perimeter = getPerimeter(length,breadth);
+  int area = getArea(length,breadth);
+  print("The perimeter of the rectangle is $perimeter");
+  print("The area of the rectangle is $area");
+}
+int getPerimeter(int length, int breadth)
+{
+  int p = 2*(length+breadth);
+  return p;
+}
+
+int getArea(int length, int breadth)
+{
+  int area = length*breadth;
+  return area;
+}
