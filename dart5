@@ -1,6 +1,6 @@
 void main()
 {
-  // i know if-else statements
+  // i know if-else statements, and switch-case statements
   
   //Control statements
   int a=1,b=2;
