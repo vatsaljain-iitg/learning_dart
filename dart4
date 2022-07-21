@@ -1,0 +1,27 @@
+/*
+1. Final variable can only be set once and it initialized only when accessed.
+2. const variable is implicitly final but it is a compile-time constant, i.e. it is 
+initialized only during compilation.
+3. Instance variable can be final but cannot be constant.
+4. If you want a constant at a Class level then you have to make it a static constant.
+*/
+void main()
+{
+  final name = "Peter"; // now it can't be changed
+  const pi = 3.14;
+  print(name);
+  print(pi);
+  
+  final cityname = 'Mumbai';
+  final String countryname = 'India';
+  const double gravity = 9.8;
+  print(cityname);
+  print(countryname);
+  print(gravity);
+}
+class vatsal
+{
+  final v =10 ;
+   //const a = 13 ; // this throws an error
+  static const a = 13;
+}
