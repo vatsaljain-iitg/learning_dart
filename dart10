@@ -1,0 +1,33 @@
+// Optional Positional Parameters in Functions
+
+/*
+ Types of Paramters:-
+ 1. Required
+ 2. Optional - i. Positional
+               ii. Named
+               iii. Default
+ */
+void main()
+{
+  printcities("Ranchi","Kolkata","Delhi");
+  printcountries("India");
+}
+
+ // Required Parameters
+void printcities(String name1, String name2 , String name3)
+{
+  print("The first city is $name1");
+  print("The second city is $name2");
+  print("The third city is $name3");
+}
+
+
+// Optional Positional perimeters
+// void printcountries(String name1 , [String name2, String name3])
+// {
+//   print("The first country is $name1");
+//   print("The second country is $name2");
+//   print("The third country is $name3");
+// }
+
+// we can skip the parameters using [] symbol
